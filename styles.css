@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  line-height: 1.5rem;
+}
+
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%, 0.8)
+}
+
+.main-bg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 100px 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-image {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-texts {
+  padding: 50px 60px;
+}
+
+.plan {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px auto 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.icon {
+  padding: 10px 5px;
+}
+
+.price {
+  margin: 10px 0 0 10px;
+}
+
+.change {
+  margin: 20px 10px 0 90px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.payment-btn {
+  margin: auto 60px 20px;
+  padding: 10px;
+  background-color: hsl(245, 75%, 52%);
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.payment-btn:hover {
+  background-color: hsl(223, 47%, 23%);
+}
+
+.cancel-btn {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+
+@media(max-width: 890px) {
+  body {
+    position: absolute;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .main-card {
+    width: 60%;
+    margin: 50px 20px;
+  }
+
+  .card-texts {
+    padding: 20px;
+  }
+
+  .summary {
+    padding: 20px;
+  }
+
+  .plan {
+    width: 100%;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .price {
+    margin: 10px 0 0 10px;
+  }
+
+  .change {
+    margin: 20px 0px 0 30px;
+  }
+
+  .buttons {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .payment-btn {
+    margin: 0 20px 20px;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .attribution {
+    text-align: left;
+    margin: 0 20px 0;
+  }
+}
